@@ -342,7 +342,7 @@ static CYTHON_INLINE float __PYX_NAN() {
 #define __PYX_HAVE_API__mojimoji
 #include "string.h"
 #include "stdlib.h"
-#include <tr1/unordered_map>
+#include <unordered_map>
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -542,7 +542,7 @@ struct __pyx_opt_args_8mojimoji_han_to_zen;
  * 
  * 
  */
-typedef std::tr1::unordered_map<Py_UNICODE,Py_UNICODE> __pyx_t_8mojimoji_table_type;
+typedef std::unordered_map<Py_UNICODE,Py_UNICODE> __pyx_t_8mojimoji_table_type;
 
 /* "mojimoji.pyx":114
  * 
